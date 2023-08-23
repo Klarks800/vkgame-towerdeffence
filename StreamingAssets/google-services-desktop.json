@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "591870823394",
+    "project_id": "amazingteam-craftconflict",
+    "storage_bucket": "amazingteam-craftconflict.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591870823394:android:f7f1f2336916d2ab5d07bb",
+        "android_client_info": {
+          "package_name": "com.AmazingTeam.CraftConflict"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591870823394-iucvsk5otddg7neq0inlbv9gmvnq1tdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATHj7VEkJtsnkvCq8rRGSjT7dERMLvKqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591870823394-iucvsk5otddg7neq0inlbv9gmvnq1tdl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

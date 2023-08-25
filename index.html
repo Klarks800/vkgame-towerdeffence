@@ -183,20 +183,29 @@
     
             }
 
-            function Fav() // вызываем метод ВК
+      
+
+            function Restore() // вызываем метод ВК
             {
-            vkBridge.send('VKWebAppAddToFavorites')
-              .then((data) => {
-                if (data.result) {
-                 
+              bridge.subscribe((e) => {
+                if (e.detail.type === 'VKWebAppViewRestore') {
+                  myGameInstance.SendMessage('ConnectJS', 'RestoreCall');
+
                 }
-              })
-              .catch((error) => {
-                console.log(error); // Ошибка
-              
-              });
-    
+               });
             }
+
+            function Hide() // вызываем метод ВК
+            {
+              bridge.subscribe((e) => {
+                if (e.detail.type === 'VKWebAppViewHide') {
+                  myGameInstance.SendMessage('ConnectJS', 'HideCall');
+
+                }
+               });
+            }
+
+            
            
           
 
